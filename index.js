@@ -3,7 +3,11 @@
 //    'b' de cada uno de los elementos de la string en la palabra the-bridge.
 // =============================================================================
 function getCharAt(string) {
-  // Aquí tu código
+  const mystring = 'the-bridge';
+  const mynewstring = string.charAt(4);
+  return mynewstring;
+  
+
 }
 
 // =============================================================================
@@ -11,7 +15,10 @@ function getCharAt(string) {
 //    palabra 'the-bridge'.
 // =============================================================================
 function getSubstring(string) {
-  // Aquí tu código
+  const mystring = "the-bridge-is-here"
+  const newSub = string.substring(0, 10);
+  return newSub;
+
 }
 
 // =============================================================================
@@ -19,7 +26,9 @@ function getSubstring(string) {
 //    'bridge'.
 // =============================================================================
 function getSubstr(string) {
-  // Aquí tu código
+  const mystring = "the-bridge-is-here";
+  const newsubstr = string.substr (4,6);
+  return newsubstr;
 }
 
 // =============================================================================
@@ -27,7 +36,10 @@ function getSubstr(string) {
 //    palabra 'THE-BRIDGE'.
 // =============================================================================
 function getUpperCase(string) {
-  // Aquí tu código
+  const mystring = 'the-bridge';
+  const newupper = string.toUpperCase ();
+  return newupper;
+
 }
 
 // =============================================================================
@@ -35,7 +47,9 @@ function getUpperCase(string) {
 //    palabra 'the-bridge'.
 // =============================================================================
 function getLowerCase(string) {
-  // Aquí tu código
+  const mystring = 'THE-BRIDGE';
+  const newlower = string.toLowerCase();
+  return newlower;
 }
 
 // =============================================================================
@@ -43,7 +57,10 @@ function getLowerCase(string) {
 //    'the-bridge'.
 // =============================================================================
 function getTrim(string) {
-  // Aquí tu código
+  const mystring = '  the-bridge  ';
+  const nospace= string.trim();
+  return nospace;
+
 }
 
 // =============================================================================
@@ -51,7 +68,10 @@ function getTrim(string) {
 //    con las palabras que forman frase.
 // =============================================================================
 function getSplit(string) {
-  // Aquí tu código
+  const newfrase = "the-bridge-is-here"
+  const wordsplit = string.split(' ');
+  return wordsplit;
+  
 }
 
 // =============================================================================
@@ -59,7 +79,9 @@ function getSplit(string) {
 //    con las palabras que forman frase.
 // =============================================================================
 function getReplace(string) {
-  // Aquí tu código
+  const newreplace = "The Bridge is great"
+  const wordreplace = string.replace ('great', 'amazing');
+  return wordreplace;
 }
 
 // =============================================================================
