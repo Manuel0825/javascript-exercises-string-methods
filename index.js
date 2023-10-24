@@ -89,7 +89,9 @@ function getReplace(string) {
 //    de la palabra 'the'.
 // =============================================================================
 function getIndexOf(string) {
-  // Aquí tu código
+  const newIndexOF = " The bridge is here"
+  const wordindexof = string.indexOf('The');
+  return wordindexof;
 }
 
 // =============================================================================
@@ -97,7 +99,9 @@ function getIndexOf(string) {
 //     si la palabra 'the' está al principio de la frase.
 // =============================================================================
 function getStartsWith(string) {
-  // Aquí tu código
+  const newWith = "the bridge is here"
+  const wordSW = string.startsWith('the');
+  return wordSW;
 }
 
 // =============================================================================
@@ -105,7 +109,9 @@ function getStartsWith(string) {
 //     si la palabra 'the' está al final de la frase.
 // =============================================================================
 function getEndsWith(string) {
-  // Aquí tu código
+  const newEWith = "the bridge is here";
+  const  wordEW = string.endsWith ('here');
+  return wordEW;
 }
 
 // =============================================================================
@@ -113,7 +119,9 @@ function getEndsWith(string) {
 //     si la frase contiene la palabra 'the'.
 // =============================================================================
 function getIncludes(string) {
-  // Aquí tu código
+  const newincludes = "the bridge is here"
+  const wordIncludes = string.includes('the');
+  return wordIncludes;
 }
 
 // =============================================================================
@@ -121,7 +129,10 @@ function getIncludes(string) {
 //     con la palabra 'the' y la palabra 'bridge'.
 // =============================================================================
 function getConcat(string1, string2) {
-  // Aquí tu código
+  const newconcat= 'the-bridgethe-bridge';
+  const wordconcat = string1.concat(string2);
+  return wordconcat;
 }
 
+// done.
 // =============================================================================
